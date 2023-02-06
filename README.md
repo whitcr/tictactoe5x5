@@ -19,5 +19,4 @@ initiateBoard(): initializes the game board by filling it with the '-' character
 printBoard(): prints the current state of the game board to the console.
 handleInput(): handles user input, placing the player's chosen symbol on the game board and updating the move counter.
 checkForWin(): checks if a player has won the game by getting three of their symbols in a row, column, or diagonal on the game board.
-gameLoop(): the main game loop that handles the flow of the game, including getting user input, checking for wins, and determining if the game is a draw.
 computerMove(): if the game mode is set to player vs computer, this function will handle the computer's move.
